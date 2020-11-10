@@ -1,0 +1,159 @@
+body {
+    font-family: arial, helvetica, sans-serif;
+    background-image: url("https://images.unsplash.com/photo-1581985360516-3bf3220aa9e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1655&q=80");
+    background-size: cover;
+
+ } 
+  .container {
+    margin-top: 20px;
+  }
+  .weather-app {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: #EDD8E8;
+    opacity: 0.9;
+    display: block;
+  }
+
+  h1 {
+    color: #ffffff;
+    font-size: 72px;
+    font-weight: 100;
+    line-height: 28px;
+    margin-bottom: 100px;
+    margin-top: 90px;
+    text-align: center;
+    font-family: 'Shrikhand', cursive;
+  }
+  h2 {
+    color: #475B5A;
+    font-size: 55px;
+    font-weight: 450;
+    height: 55px;
+    line-height: 65px;
+    text-align: center;
+    margin-bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 1;
+  }
+  h3 {
+      font-size: 10px;}
+
+
+.btn-info {background-color: #52D1DC;
+     
+}
+
+ 
+  .result-date {
+    padding-top: 5px;
+    text-align: center;
+    font-size: smaller;
+  }
+  .result-description {
+    text-align: center;
+    padding-top: 10px;
+    
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    
+  }
+  li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: #BA274A;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 19.2px;
+    
+  }
+  li:first-letter {
+    text-transform: capitalize;
+  }
+  .overview {
+    margin-bottom: 20px;
+  }
+  .col-6 {
+    padding: 23px 33px 23px 15px;
+  }
+
+  .weather-temperature img {
+    margin-right: 5px;
+    float: left;
+    height: 64px;
+    width: 64px;
+  }
+  .weather-temperature .strong {
+    color:#001427;
+    font-size: 58px;
+    font-weight: 400px;
+    line-height: 1;
+  }
+  .weather-temperature .units {
+    position: relative;
+    font-size: 16px;
+    top: -34px;
+  }
+  .weather-temperature .active {
+    color: rgb(33, 33, 33);
+    cursor: default;
+  }
+  .weather-temperature .active:hover {
+    text-decoration: none;
+   
+  }
+  .weather-forecast h3 {
+    color: rgb(33, 33, 33);
+    font-size: 11px;
+    font-weight: 400;
+    text-align: center;
+    height: 15px;
+    line-height: 15px;
+    
+ }
+  .text {
+color: #FF6700;
+text-align: center;
+font-size:  30px; 
+font-family: 'Shrikhand', cursive;
+ padding: 10px;
+
+  }
+  .weather-forecast img {
+display: block;
+margin: 0 auto;
+height: 64px;
+width: 64px;
+   
+  }
+  
+  .weather-forecast-temperature {
+ text-align: center;
+ color: rgb(33, 33, 33);
+font-size: 13px;
+font-weight: 400;
+height: auto;
+line-height: 15px;
+white-space: nowrap;
+  }
+  
+.programmer-info {
+max-width: 500px;
+margin: 0 auto;
+padding: 20px;
+border-radius: 10px;
+background:#52D1DC;
+ opacity: 0.9;
+ display: block;
+  }
+  .sm-text {color:rgb(33, 33, 33);
+text-align: center;
+font-size:  15px;
+ }
+
+ a {color: #BA274A;}

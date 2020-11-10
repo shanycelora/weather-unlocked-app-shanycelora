@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://kit.fontawesome.com/1e7dfc5f1a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Shrikhand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/styles.css" />
+    <title>Weather, Unlocked 🗝️</title>
+</head>
+<body>
+    <body id="image">
+        <h1 style="font-size:8vw;">Weather, Unlocked</h1>
+        <div class="container">
+          <div class="weather-app">
+            <form id="search-form" class="mb-3">
+              <div class="row">
+                <div class="col-9">
+                  <input
+                    type="search"
+                    placeholder="Search for your city..."
+                    class="form-control"
+                    id="city-input"
+                    autocomplete="off"
+                  />
+                </div>
+                <div class="col-3">
+                  <input type="submit" value="🔍 Search" class="btn btn-info" />
+                  
+                </div>
+              
+              </div>
+            </form>
+            <div class="overview">
+              <h2 id="city"></h2>
+              <ul>
+                <li id="description" class="result-description"></li>
+                <li class="result-date">Last updated: <span id="date"></span></li>
+              
+              </ul>
+              <div class="row">
+                <div class="col-6">
+                  <div class="clearfix weather-temperature">
+                    <img src="" alt="Sunny" id="icon" />
+                    <span class="strong" id="temperature"></span
+                    ><span class="units"
+                      ><a href="#" id="celsius-link" class="active">°C</a> |
+                      <a href="#" id="fahrenheit-link">°F</a></span
+                    >
+                  </div>
+                </div>
+                <div class="col-6">
+                  <ul>
+                    <li>Humidity: <span id="humidity"></span>%</li>
+                    <li>Wind: <span id="wind"></span> km/hr</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="text">Today's Forecast</div>
+              <div class="row weather-forecast" id="forecast"></div>
+              <div class="container">
+                  <div class="five-day-forecast">
+              <div class="text">Weekly Overview</div>
+              <div class="row weather-forecast" id="daily"></div>
+            </div>
+            </div>
+          </div>
+        
+        </div>
+      </div>
+
+     
+    </div>
+    </div>
+
+    <div class="container">
+        <div class="programmer-info"><div class="sm-text"><a href="https://github.com/shanycelora/weather-unlocked-app-shanycelora">Open-source code </a> by <a href="https:/www.linkedin.com/in/shanyce-lora">Shanyce Lora</a></div></div>
+        
+       
+
+            <script src="src/app.js"></script>
+</body>
+</html>
